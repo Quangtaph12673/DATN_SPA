@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {/* <LoginWithGoogle /> */}
-      {/* <LoginWithFacebook /> */}
+      <LoginWithFacebook />
       <form>
         <input type="file" onChange={(e) => handleUpload(e.target.files)} />
       </form>
